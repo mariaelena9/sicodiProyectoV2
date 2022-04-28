@@ -1,0 +1,82 @@
+.main-correspondencia{
+    line-height: 2em;
+}
+.data-column {
+    display: inline-block;
+    width: 50%;
+}
+.data-info {
+    padding: 0 0 0 1em;
+    font-size: 1.1em;
+    font-weight: 350;
+    color: black;
+}
+p.data-text {
+    width: auto;
+    display: inline-block;
+}
+p.data-secondary-text{
+    padding: 0 0 0 1em;
+    font-weight: 300;
+    font-size: 1.1em;
+}
+span.span-data{
+    float: right;
+    padding: 0 1em 0 0;
+}
+hr{
+    background-color: #7d1431;
+    height: 3px;
+    margin: 1em 0px;
+}
+
+h4{
+    font-weight: 400;
+    font-size: large;
+}
+h3{
+    font-weight: 500;
+}
+.mail-buttons button{
+    font-weight: bolder;
+    font-size: larger;
+    width: 80%;
+    display: inline-block;
+    margin: 1em auto;
+   
+}
+.mail-buttons a {
+    text-decoration: none;
+    color: white;
+}
+
+.buttonBack i {
+  
+    display: flex;
+}
+
+.mail-pdf {
+    width: 40%;
+    display: inline-block;
+    color: #57061d;
+    
+}
+.mail-pdf a{
+    text-align: center;
+    display: block;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+.pdf-icon{
+    font-size: 8em;
+    display: block;
+    margin: auto;
+}
+.mail-buttons{
+    width: 40%;
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    vertical-align: text-bottom;
+}
+

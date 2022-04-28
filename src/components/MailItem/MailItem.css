@@ -1,0 +1,70 @@
+p {
+  margin: 0 !important;
+}
+.item {
+  box-shadow: 0 1px 0 #000 inset;
+}
+.author {
+  width: auto;
+  font-weight: 700;
+  display: inline-block;
+  cursor: pointer;
+  
+}
+.subject {
+  font-weight: 600;
+  width: auto;
+    display: inline-block;
+    cursor: pointer;
+}
+.status {
+  font-weight: 600;
+  color: red;
+}
+.contentM {
+  width: 90%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+}
+.imgStatus {
+  display: inline-block;
+  width: auto;
+  margin-top: 1em;
+  cursor: pointer;
+}
+.text-end{
+  margin: auto;
+    display: inline-block;
+    width: 120px;
+    float: right;
+    color: red;
+    font-weight: 600;
+    border-style: solid;
+    border-radius: 3px;
+    text-align: center;
+    border-color: black;
+    text-transform: capitalize;
+
+}
+.item.container-fluid{
+  padding: 1.5em;
+}
+
+.mail-header {
+  padding: 0.2em 0em;
+}
+
+.icon-div{
+  width: 100px;
+  display: inline-block;
+  float: right;
+  text-align: center;
+}
+
+.opacity{
+  filter: opacity(0.5);
+  cursor: default;
+};
+

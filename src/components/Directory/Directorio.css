@@ -1,0 +1,178 @@
+@font-face {
+    font-family: GothamRounded;
+    src: url(../../assets/GothamRounded/GothamRounded-Bold.otf);
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url(../../assets/GothamRounded/GothamRounded-Light.otf);
+}
+
+/*==========================SCROLL PERSONALIZADO DEL DIRECTORIO======================================*/
+.contentDirectory::-webkit-scrollbar {
+    -webkit-appearance:none;
+}
+
+.contentDirectory::-webkit-scrollbar:vertical {
+    width:9px;
+}
+
+.contentDirectory::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.contentDirectory::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.contentDirectory::-webkit-scrollbar-thumb {
+    background-color: #780727;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+}
+
+.contentDirectory::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+/*======================================================================================*/
+
+
+
+.middle {
+    display: flex;
+}
+
+.contentDirectory{
+    width: 79vw;
+    height: 91vh;
+    display: flex;
+    overflow: scroll;
+    padding: 20px;
+}
+
+.Tarjeta{
+    border: solid #780727 2px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.img-contact{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    width: 8%;
+    align-items: center;
+}
+
+.info-contact{
+    display: flex;
+    flex-direction: column;
+    width: 73%;
+    font-family: Gotham;
+    
+}
+
+.name-contact{
+    font-family: GothamRounded;
+}
+
+.img-message{
+    display: flex;
+    align-self: center;
+    font-size: 1.3rem;
+    width: 8%;
+    max-width: 30px;
+    /* max-height: 30px; */
+    background-color: #780727;
+    padding: 2px;
+    color: #fff;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+  .directorio{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30vw, 30vw));
+    gap: 30px;
+    justify-content: center;
+  }
+
+.buttonBack {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.buttonBack i {
+  color: #780727;
+  cursor: pointer;
+}
+
+.TitlePage{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color:black;
+    font-family: Gotham;
+}
+
+.headerDirectory{
+    display: flex;
+}
+
+.filter{
+    display: flex;
+    width: 62vw;
+}
+
+.filter select{
+    width: 20.5vw;
+}
+
+.filter select{
+    border: solid #780727 2px;
+    height: 4vh;
+    width: 15vw;
+    margin-left: 10px;
+    font-family: Gotham;
+    /* padding-left: 3px; */
+    
+}
+
+.filter-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color:black;
+    font-family: Gotham;
+}
+
+.direction{
+    display: flex;
+    flex-direction: column;
+    width: 79vw;
+    height: 91vh;
+}
+
+.Search{
+    display: flex;
+    /* border:solid #780727 2px; */
+    
+    border: solid #780727 1px;
+    padding: 5px;
+}
+
+.Search input{
+    width:100%;
+    font-family: Gotham;
+    border: none;
+    outline: none;
+}
+
+.icon-search{
+    border: none;
+    color: rgb(61, 61, 61);
+}

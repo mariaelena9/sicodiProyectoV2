@@ -1,0 +1,195 @@
+@font-face {
+  font-family: GothamRounded;
+  src: url(../../assets/GothamRounded/GothamRounded-Bold.otf);
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url(../../assets/GothamRounded/GothamRounded-Light.otf);
+}
+
+/*==========================SCROLL PERSONALIZADO DEL DIRECTORIO======================================*/
+.contentDirectory::-webkit-scrollbar {
+  -webkit-appearance:none;
+}
+
+.contentDirectory::-webkit-scrollbar:vertical {
+  width:9px;
+}
+
+.contentDirectory::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+  display: none;
+} 
+
+.contentDirectory::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.contentDirectory::-webkit-scrollbar-thumb {
+  background-color: #780727;
+  border-radius: 10px;
+  border: 2px solid #FFF;
+}
+
+.contentDirectory::-webkit-scrollbar-track {
+  border-radius: 10px;  
+}
+
+/*======================================================================================*/
+
+.middle {
+  display: flex;
+}
+
+.contentTracking{
+  width: 80vw;
+  height: 91vh;
+  display: flex;
+  overflow: scroll;
+  padding: 20px;
+}
+
+.seguimiento{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.img-check, .line{
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 8%;
+  align-items: center;
+  color: rgb(113, 181, 126);
+}
+
+.enviado, .proceso, .archivado{
+  display: flex;
+}
+
+.detalle-enviado{
+  display: flex;
+  flex-direction: column;
+  width: 73%;
+  
+  
+}
+.detalle-enviado h3 {
+  font-weight: bolder;
+    color: black;
+  font-family: GothamRounded;
+
+}
+
+.detalle-enviado p{
+  font-family: Gotham;
+  color: black;
+}
+
+.numOficio{
+  display: flex;
+  color:black;
+  font-family: Gotham;
+  margin-bottom: 50px;
+}
+
+.name-contact{
+  font-family: GothamRounded;
+}
+
+.tracking{
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonBack {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.buttonBack i {
+color: #780727;
+cursor: pointer;
+}
+
+.TitlePage{
+  color:black;
+  margin-top: -3px;
+  font-family: Gotham;
+}
+
+.direction{
+  display: flex;
+  flex-direction: column;
+  width: 79vw;
+  height: 91vh;
+}
+
+
+.Search input{
+  width:100%;
+  font-family: Gotham;
+  border: none;
+  outline: none;
+}
+
+.icon-search{
+  border: none;
+  color: rgb(61, 61, 61);
+}
+
+
+.line{
+  color: dimgray;
+  align-items: center;
+}
+
+.info-gral{
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-between;
+}
+
+.info-box{
+  border: solid #780727 2px;
+    height: auto;
+    width: 40%;
+    margin: auto;
+    display: inline-block;
+    padding: 1em;
+}
+
+.remitente{
+  border: solid #780727 2px;
+  height: 15vh;
+  width: 25vw;
+}
+
+.destinatario{
+  border: solid #780727 2px;
+  height: 15vh;
+  width: 25vw;
+}
+
+.status{
+  display: inline-flex;
+  flex-direction: column;
+  color: black!important;
+  width: 50%;
+}
+
+.pdf{
+  width: 169px;
+    display: inline-block;
+    height: 208px;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+    border-style: solid;
+    border-color: #780727;
+    border-width: 3px;
+}
